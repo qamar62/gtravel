@@ -8,17 +8,17 @@ const PopularDestinations = () => (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* TODO: Map destinations here */}
         <div className="bg-white rounded-lg shadow p-6">
-          <div className="h-40 bg-gray-200 rounded mb-4"></div>
+          <div className="h-40 bg-gray-200 rounded mb-4 flex items-center justify-center text-2xl text-gray-500 font-semibold">Tbilisi</div>
           <h3 className="font-bold text-xl mb-2">Tbilisi</h3>
           <p className="text-muted-foreground">The capital city with a blend of old and new.</p>
         </div>
         <div className="bg-white rounded-lg shadow p-6">
-          <div className="h-40 bg-gray-200 rounded mb-4"></div>
+          <div className="h-40 bg-gray-200 rounded mb-4 flex items-center justify-center text-2xl text-gray-500 font-semibold">Kazbegi</div>
           <h3 className="font-bold text-xl mb-2">Kazbegi</h3>
           <p className="text-muted-foreground">Majestic mountains and breathtaking views.</p>
         </div>
         <div className="bg-white rounded-lg shadow p-6">
-          <div className="h-40 bg-gray-200 rounded mb-4"></div>
+          <div className="h-40 bg-gray-200 rounded mb-4 flex items-center justify-center text-2xl text-gray-500 font-semibold">Batumi</div>
           <h3 className="font-bold text-xl mb-2">Batumi</h3>
           <p className="text-muted-foreground">A vibrant seaside city on the Black Sea coast.</p>
         </div>

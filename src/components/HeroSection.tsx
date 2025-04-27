@@ -1,8 +1,12 @@
 import React from "react";
 
 const HeroSection = () => (
-  <section className="relative bg-primary py-20 text-center text-white">
-    <div className="container mx-auto">
+  <section className="relative bg-primary py-20 text-center text-white" style={{
+  backgroundImage: 'url(/images/hero-bg.jpg)',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+}}>
+    <div className="container mx-auto bg-black bg-opacity-40 rounded-lg p-6">
       <h1 className="text-5xl font-bold mb-4">Discover Georgia</h1>
       <p className="text-xl mb-8">Book unforgettable tours & experiences in the heart of the Caucasus</p>
       {/* TODO: Add search form */}
