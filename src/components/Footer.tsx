@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-white">
+    <footer className="bg-secondary text-primary">
       {/* Newsletter Section */}
       <div className="border-b border-gray-700 py-12">
         <div className="container">
@@ -32,8 +32,8 @@ const Footer = () => {
             {/* Logo and About */}
             <div>
               <div className="flex items-center">
-                <span className="font-cursive text-2xl font-bold text-primary">Georgia</span>
-                <span className="ml-1 font-bold text-white">Tours</span>
+                <span className="font-cursive text-2xl font-bold text-primary">Travel</span>
+                <span className="ml-1 font-bold text-white">Vibe</span>
               </div>
               <p className="mt-4 text-gray-300">
                 Discover the authentic beauty of Georgia with our expert-guided tours. Exploring ancient history, stunning landscapes, and rich cultural traditions.

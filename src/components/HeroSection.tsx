@@ -46,10 +46,13 @@ const HeroSection = () => (
       </div>
       {/* Bottom doodle/line art placeholder */}
       <div className="w-full flex justify-center">
-        <div className="h-12 w-full max-w-4xl bg-accent rounded-t-lg flex items-center justify-center text-gray-400 text-sm italic">[Landmarks doodle placeholder]</div>
+        <div className="h-24 w-full max-w-4xl bg-accent rounded-t-lg flex items-center justify-center">
+  
+</div>
       </div>
     </div>
-  </section>
+    
+</section>
 );
 
 export default HeroSection;
