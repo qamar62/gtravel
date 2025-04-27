@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geologica } from "next/font/google";
 import "./globals.css";
 import ClientBody from "./ClientBody";
+import AppPreloaderWrapper from "./components/AppPreloaderWrapper";
 
 const geologica = Geologica({
   variable: "--font-geologica",
@@ -22,9 +23,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geologica.variable}`}>
+    <html lang="en" className={`${geologica.variable}`}> 
       <body suppressHydrationWarning className="antialiased">
-        <ClientBody>{children}</ClientBody>
+        <AppPreloaderWrapper>{children}</AppPreloaderWrapper>
       </body>
     </html>
   );
