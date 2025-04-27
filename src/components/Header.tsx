@@ -212,9 +212,7 @@ const Header = () => {
               <Link href="/blog" className="py-2 text-sm font-medium text-secondary hover:text-primary">
                 Blog
               </Link>
-              <Link href="/contact" className="py-2 text-sm font-medium text-secondary hover:text-primary">
-                Contact
-              </Link>
+             
               <Button className="mt-2 w-full">Book Now</Button>
             </nav>
           </div>
