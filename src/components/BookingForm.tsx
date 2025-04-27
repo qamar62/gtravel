@@ -64,7 +64,7 @@ const BookingForm: React.FC<BookingFormProps> = ({ price }) => {
           Medical Insurance ($45)
         </label>
       </div>
-      <button className="w-full bg-primary text-white py-3 rounded-full font-semibold text-lg mt-2">
+      <button className="w-full bg-primary text-black py-3 rounded-full font-semibold text-lg mt-2">
         Booking Now For ${total}
       </button>
     </div>

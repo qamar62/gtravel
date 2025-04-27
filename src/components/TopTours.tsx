@@ -11,19 +11,19 @@ const TopTours = () => (
           <div className="h-40 bg-gray-200 rounded mb-4 flex items-center justify-center text-2xl text-gray-500 font-semibold">Georgia Highlights</div>
           <h3 className="font-bold text-xl mb-2">Georgia Highlights</h3>
           <p className="text-muted-foreground">7 days, 6 nights - Explore the best of Georgia.</p>
-          <button className="mt-4 bg-primary text-white px-4 py-2 rounded">View Details</button>
+          <button className="mt-4 bg-primary text-black px-4 py-2 rounded">View Details</button>
         </div>
         <div className="bg-white rounded-lg shadow p-6">
           <div className="h-40 bg-gray-200 rounded mb-4 flex items-center justify-center text-2xl text-gray-500 font-semibold">Wine & Culinary Tour</div>
           <h3 className="font-bold text-xl mb-2">Wine & Culinary Tour</h3>
           <p className="text-muted-foreground">Taste the flavors of Georgia's wine country.</p>
-          <button className="mt-4 bg-primary text-white px-4 py-2 rounded">View Details</button>
+          <button className="mt-4 bg-primary text-black px-4 py-2 rounded">View Details</button>
         </div>
         <div className="bg-white rounded-lg shadow p-6">
           <div className="h-40 bg-gray-200 rounded mb-4 flex items-center justify-center text-2xl text-gray-500 font-semibold">Adventure in Svaneti</div>
           <h3 className="font-bold text-xl mb-2">Adventure in Svaneti</h3>
           <p className="text-muted-foreground">Mountains, hiking, and ancient towers await.</p>
-          <button className="mt-4 bg-primary text-white px-4 py-2 rounded">View Details</button>
+          <button className="mt-4 bg-primary text-black px-4 py-2 rounded">View Details</button>
         </div>
       </div>
     </div>
