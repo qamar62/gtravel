@@ -57,15 +57,10 @@ const Header = () => {
       </div>
 
       {/* Main Navigation */}
-      <div className="container flex h-20 items-center justify-between">
+      <div className="container flex items-center justify-between py-4">
         {/* Logo */}
-        <Link href="/" className="relative flex items-center">
-          <div className="relative h-12 w-40">
-            <div className="flex items-center">
-              <span className="font-cursive text-2xl font-bold text-primary">Georgia</span>
-              <span className="ml-1 font-bold text-secondary">Tours</span>
-            </div>
-          </div>
+        <Link href="/" className="flex items-center">
+          <Image src="/logo.png" alt="Georgia Tours Logo" width={64} height={64} priority />
         </Link>
 
         {/* Desktop Navigation */}
